@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta name="google-site-verification" content="d20xXng_erQnVCfs7W9ruvHBVg9zuAoblZriJ-9AQnQ" />
 		<meta charset="utf-8">
-		<title>六四共河國</title>
+		<title>六四共和國</title>
 		<link rel="stylesheet" media="screen" href="style.css">
+		<link rel="stylesheet" href="bootstrap.css">
+
 		
 		<script language="JavaScript">
 			function dosearch() {
@@ -14,34 +15,65 @@
 			return false;
 			}
 		</script>
+		    <style>
+				body {
+					height: 1080px;
+					width: 1920px;
+					overflow: hidden;
+				}
+		
+				header {
+					height: 100px;
+					width: 1920px;
+					
+				}
+		
+				main {
+					height: 880px;
+					width: 1920px;
+					background-color: rgb(177, 136, 228);
+		
+				}
+		
+				footer {
+					height: 100px;
+					width: 1920px;
+				}
+			</style>
 	</head>
 	<body>
+		<header class="bg-success d-flex justify-content-around align-items-center">
+			<a href="app.html">
+				<div class="w-250">
+					<img src=".\img\logo01.png" width="85px">
+				</div>
+			</a>
+			<div class="w-250 d-flex">
+				<a class="w-2 btn btn-secondary m-2" href="index.html">Home</a>
+				<a class="w-2 btn btn-secondary m-2" href="gonggau.html">公告</a>
+				<a class="w-2 btn btn-secondary m-2" href="falyu.html">法律</a>
+				<a class="w-2 btn btn-secondary m-2" href="huodong.html">活動</a>
+				<a class="w-2 btn btn-secondary m-2" href="guojiatjihliau.html">國家介紹</a>
+				<a class="w-2 btn btn-secondary m-2" href="link.html">連結</a>
+
+			</div>
+		</header>
+<main>
+
+</main>
+		<footer class="bg-info d=flex flex-wrap align-items-center">
+
+			<div class="text-center w-100">
+				<a href="https://facebook.com"><img src="icon_facebook.png"></a>
+				<a href="https://instagram.com"><img src="icon_instagram.png"></a>
+				<a href="https://twitter.com"><img src="icon_twtter.png"></a>
+				<a href="https://youtube.com"><img src="icon_youtube.png"></a>
+			</div>
+			<div class="text-center w-100">Copyright &copy; 2024 FIBEX All Rights Reserved</div>
+		</footer>
+
 		
-		<div class="header">
-			<img src="images/Logo_sample.png" />
-		</div>
-		
-		<p class="error">404</p>
-		
-		<div class="content">
-			<h2>page coulnd't be found</h2>
-			
-			<p class="text">
-				Oooooops… it looks like the page you were looking for does not exist anymore or is temporarily unavailable. You might want to search our website or browse our website. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-			
-				<form name="searchform" onSubmit="return dosearch();">
-					<input type="hidden" name="sengine" value="http://www.google.com/search?q=site:www.yoursite.com+" />
-					<input type="text" name="searchterms" class="inputform">
-					<!--<input type="submit" name="SearchSubmit" value="Search" class="button"> -->
-				</form>
-				<!-- Change www.yoursite.com to your website domain -->
-			</p>
-				
-			<p class="links">
-				<a id="button" href="http://idlcn.mctw.net">&larr; Back</a> <a href="#">Homepage</a> <a href="#">Portfolio</a> <a href="#">About Us</a> <a href="#">Blog</a>
-				<!--These are links. You can change it to a page you want to by replacing the '#' with your url.-->
-			</p>
-		</div>
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>		
+		<script src="jquery.js"></script>
+		<script src="bootstrap.js"></script>
 	</body>
 </html>
